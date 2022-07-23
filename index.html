@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Resume Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #f9f9f9;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .info {
+        text-align: left;
+      }
+
+      #profile_pic {
+        padding-left: 50%;
+      }
+
+      /* unordered list - circle type */
+      .circle-list {
+        list-style-type: circle;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .no-border {
+        border: none;
+      }
+
+      /* Photo Gallery */
+      .photo-gallery {
+        display: flex;
+      }
+      .galler-images {
+        flex: 30%;
+        padding: 5px;
+      }
+      dt {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>My Resume Page</h2>
+
+    <div class="image-text">
+      <table class="no-border">
+        <td class="no-border">
+          <p class="info">
+            SARATHI R
+            <br />
+            URK20CS1081
+            <br />
+            CSE Department
+            <br />
+            Email : sarathir@karunya.edu.in
+          </p>
+        </td>
+        <td class="no-border">
+          <img
+            src="./images/Avatar.png"
+            id="profile_pic"
+            alt="profile"
+            width="30%"
+          />
+        </td>
+      </table>
+    </div>
+
+    <hr />
+    <div class="links">
+      <a href="">Visit My Website</a>
+      <a href="https://www.karunya.edu/" target="_blank">My College</a>
+      <a href="mailto:sarathir@karunya.edu.in?subject = Anything want to say?"
+        >Email Me</a
+      >
+      <a href="">Call Me</a>
+      <a
+        href="https://www.google.com/aclk?sa=l&ai=DChcSEwjT4tnUgPv4AhVBSisKHSfjD18YABAAGgJzZg&ae=2&sig=AOD64_3Cdw2vUJYC0tWH4TqfGx6KmMH4JQ&q&adurl&ved=2ahUKEwj6x9LUgPv4AhX04TgGHTQMATcQ0Qx6BAgDEAE"
+        target="_blank"
+      >
+        <img
+          id="facebook"
+          src="./images/facebook-logo-495.jpg"
+          width="100"
+          height="30"
+        />
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img
+          id="instagram"
+          src="./images/Instagram Logo.png"
+          width="100"
+          height="30"
+        />
+      </a>
+      <a href="https://www.linkedin.com/signup" target="_blank">
+        <img
+          id="linkedin"
+          src="./images/linkedin-logo-png-1849.png"
+          width="100"
+          height="30"
+        />
+      </a>
+    </div>
+    <hr />
+    <div class="carrer-objective" id="carrer-objective">
+      <h3>Carrer Objective</h3>
+      <p>
+        A Career Objective or a Resume Objective is essentially a heading
+        statement that describes your professional goals in two to three
+        sentences. Employers looking to hire an employee for a position tend to
+        seek candidates that are driven enough to understand what they want.
+      </p>
+    </div>
+    <hr />
+    <div class="academic-profile">
+      <h3>Academic Profile</h3>
+      <div class="table-center">
+        <table>
+          <tr>
+            <th>Education</th>
+            <th>School/College</th>
+            <th>Board/University</th>
+            <th>Percentage of MArks</th>
+            <th>Year of Passing</th>
+          </tr>
+          <tr>
+            <td>Btech</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>SSLC</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <hr />
+    <div class="technical Skills" id="technical-skills">
+      <h3>Technical Skills</h3>
+      <ol class="ordered-list">
+        <li>Data Structures</li>
+        <li>Computer Networks</li>
+        <li>Web Technology</li>
+        <li>Python Programming</li>
+        <li>Java Programming</li>
+      </ol>
+    </div>
+    <hr />
+    <div class="advanced-skills" id="advanced-skills">
+      <h3>Advanced Technology Skills</h3>
+      <ul class="circle-list">
+        <li>Data Science</li>
+        <li>Data Analytics</li>
+        <li>Machine Learning Principles</li>
+      </ul>
+    </div>
+    <hr />
+    <div class="internship-completed" id="intenship-completed">
+      <h3>Internship Completed</h3>
+
+      <dl>
+        <dt>Infosys</dt>
+        <dd>Write about the Internship.</dd>
+        <dt>Microsoft</dt>
+        <dd>Write about the Internship.</dd>
+        <dt>CISCO</dt>
+        <dd>Write about the Internship.</dd>
+        <dt>Oracle</dt>
+        <dd>Write about the Internship.</dd>
+      </dl>
+    </div>
+    <hr />
+    <h3>Photo Gallery</h3>
+    <div class="photo-gallery">
+      <div class="galler-images">
+        <img
+          src="./images//weather-app.png"
+          alt="image-1"
+          width="50%"
+          height="100%"
+        />
+      </div>
+      <div class="galler-images">
+        <img
+          src="./images//resume.png"
+          alt="image-2"
+          width="50%"
+          height="100%"
+        />
+      </div>
+    </div>
+    <hr />
+    <div class="jump-to-links">
+      <p>
+        <a href="#carrer-objective">Carrer Objective</a>
+        <a href="#technical-skills">Technical Skills</a>
+        <a href="">Education</a>
+        <a href="#advanced-skills">Advanced Technology Skills</a>
+        <a href="#internship-completed">Internships</a>
+      </p>
+    </div>
+    <hr />
+  </body>
+  <footer>Created By SARATHI R URK20CS1081</footer>
+</html>
