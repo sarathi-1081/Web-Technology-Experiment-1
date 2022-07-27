@@ -42,14 +42,6 @@
         border: none;
       }
 
-      /* Photo Gallery */
-      .photo-gallery {
-        display: flex;
-      }
-      .galler-images {
-        flex: 30%;
-        padding: 5px;
-      }
       dt {
         font-weight: bold;
       }
@@ -202,23 +194,30 @@
     <hr />
     <h3>Photo Gallery</h3>
     <div class="photo-gallery">
-      <div class="galler-images">
-        <img
-          src="./images//weather-app.png"
-          alt="image-1"
-          width="50%"
-          height="100%"
-        />
-      </div>
-      <div class="galler-images">
-        <img
-          src="./images//resume.png"
-          alt="image-2"
-          width="50%"
-          height="100%"
-        />
-      </div>
+      <table style="border: none;" >
+        <tr>
+          <th style="border: none;">
+            <img
+              src="./images//weather-app.png"
+              alt="image-1"
+              width="50%"
+              height="100%"
+            />
+          </th>
+          <th style="border: none;">
+            <div class="galler-images">
+              <img
+                src="./images//resume.png"
+                alt="image-2"
+                width="50%"
+                height="100%"
+              />
+          </th>
+        </tr>
+      </table>
     </div>
+
+    <br />
     <hr />
     <div class="jump-to-links">
       <p>
